@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Bebas Neue, sans-serif;
+    background: whitesmoke;
+}
+
+.container {
+    position: fixed;
+    padding-bottom: 10px;
+    top: 0;
+    width: 100%;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4889244.jpg&f=1&nofb=1');
+    -webkit-box-shadow: -3px 3px 17px 5px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: -3px 3px 17px 5px rgba(0, 0, 0, 0.46);
+    box-shadow: -3px 3px 17px 5px rgba(0, 0, 0, 0.46);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #000;
+}
+
+
+/* Loader */
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0);
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Image Container */
+
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.done {
+    display: flex;
+    justify-content: center;
+}
+
+.done i {
+    background-color: white;
+    padding: 0.2rem 1rem;
+    color: #000;
+}
+
+.done span {
+    margin-left: 40px;
+    font-family: Bebas Neue, sans-serif;
+}
+
+
+/* Media Query: Large Smartphone */
+
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 40px;
+    }
+    .image-container {
+        margin: 10px;
+    }
+}
